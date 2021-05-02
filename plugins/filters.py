@@ -167,8 +167,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         elif query.data == "start_data":
             await query.answer()
             keyboard = InlineKeyboardMarkup([
-                [InlineKeyboardButton("HELP", url="https://t.me/TroJanzSupport"),
-                    InlineKeyboardButton("ABOUT", url="https://t.me/TroJanzSupport")],
+                [InlineKeyboardButton("CHANNEL", url="https://t.me/SSM_LINKS"),
+                    InlineKeyboardButton("GROUP", url="https://t.me/SSM_CHAT")],
                 
             ])
 
@@ -182,8 +182,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         elif query.data == "help_data":
             await query.answer()
             keyboard = InlineKeyboardMarkup([
-                [InlineKeyboardButton("BACK", url="https://t.me/TroJanzSupport"),
-                    InlineKeyboardButton("ABOUT", url="https://t.me/TroJanzSupport")],
+                [InlineKeyboardButton("CHANNEL", url="https://t.me/SSM_LINKS"),
+                    InlineKeyboardButton("GROUP", url="https://t.me/SSM_CHAT")],
 
             ])
 
@@ -197,8 +197,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         elif query.data == "about_data":
             await query.answer()
             keyboard = InlineKeyboardMarkup([
-                [InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("START", callback_data="start_data")],
+                [InlineKeyboardButton("CHANNEL", url="https://t.me/SSM_LINKS"),
+                    InlineKeyboardButton("GROUP", url="https://t.me/SSM_CHAT")],
 
             ])
 
