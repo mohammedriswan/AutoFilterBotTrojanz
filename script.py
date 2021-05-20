@@ -1,20 +1,19 @@
 class script(object):
 
 
-    START_MSG = """ <b>ഹായ് {}
-ഈ ബോട്ട് തികച്ചും Seven Screen Movies ഗ്രൂപ്പിന് വേണ്ടി മാത്രമാണ് എന്നെ നിങ്ങൾക്ക് വേറെ ഗ്രൂപ്പിൻ യൂസ് ചെയ്യാൻ പറ്റില്ല sorry😪.....
-ജോയിൻ @SSM_CHAT
+    START_MSG = """ <b>Hey {} </b>
+I'm a Simple Auto Filter Bot Made For Seven Screen Movies Group and Maintenanced By <a href="https://t.me/AkFrolicx">This Person</a>
 """
 
 
-    HELP_MSG = """എന്നെ എന്റെ ഓണർക്ക് മാത്രെമേ കൺട്രോൾ ചെയ്യാൻ പറ്റുകയൊള്ളു...😜
-Bot Made by @JINN_OF_TG to @AkFrolicx for his movie group..... 
+    HELP_MSG = """
+I'm a Simple Filter Bot Made For Seven Screen Movies Group and Maintenanced By <a href="https://t.me/AkFrolicx">This Person</a> 
 
 
 
 """
 
 
-    ABOUT_MSG = """എന്നെ എന്റെ ഓണർക്ക് മാത്രെമേ കൺട്രോൾ ചെയ്യാൻ പറ്റുകയൊള്ളു...😜
-Bot Made by @JINN_OF_TG to @AkFrolicx for his movie group..... 
+    ABOUT_MSG = """
+I'm a Simple Filter Bot Made For Seven Screen Movies Group and Maintenanced By <a href="https://t.me/AkFrolicx">This Person</a>
 """
